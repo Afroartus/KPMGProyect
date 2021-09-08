@@ -1,0 +1,49 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+    $fondo-oscuro:#242424;
+    $fondo-claro: #ffffff;
+
+    // Primarios
+    $azul-oscuro: #00338D;  
+    $azul-medio: #005EB8;
+    $azul-claro: #0091DA;
+
+    // Secundarios
+    $morado-oscuro: #470A68;
+    $morado-medio: #483698;
+    $morado-claro: #6D2077;
+
+    // Tercioarios
+    $verde-medio: #00A3A1;
+    $verde-oscuro: #009A44;
+    $verde-claro: #43B02A;
+    $amarillo: #EAAA00;
+    $naranja: #F68D2E;
+    $rojo: #BC204B;
+    $rosado: #C6007E;
+
+
+body{
+    background: $fondo-oscuro;
+    color: $fondo-claro;
+}
+
+.color-blue{
+    background: $azul-oscuro;
+}
+
+.table{
+    text-align: center;
+}
+
+.nav-pills{
+    background: $azul-claro;
+    height: 90vh;
+    border-top-left-radius: 1.8rem;
+}
+
+button,
+.nav-link{
+    color: $fondo-claro;
+    background: none;
+}
